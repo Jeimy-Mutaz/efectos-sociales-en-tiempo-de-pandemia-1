@@ -1,0 +1,278 @@
+body{
+    background: rgb(17, 199, 255);
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar1{
+    width: 100%;
+    padding-left: 7%;
+    padding-right: 7%;
+    position: fixed;
+}
+
+.navbar2{
+    background: white;
+    color: black; 
+    width: 200%;
+    padding-left: 5%;
+    padding-right: 5%;
+    
+}
+
+.img-fluid{
+    width: 190%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+
+.contenedorPrincipal{
+    color: white;
+    width:100%;
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 15px;
+} 
+@media (max-width: 538px) {
+section{
+    width: 280%;
+    color: rgb(253, 252, 252);
+}
+}
+#parte1{
+    background: rgba(1, 21, 110, 0.637);
+    height: 55vh;
+    border-bottom: solid rgb(116, 163, 185) 3px;
+    border-top: solid rgb(116, 163, 185) 3px;
+    border-left: solid  rgb(116, 163, 185) 3px;
+    border-right: solid  rgb(116, 163, 185) 3px;
+}
+
+    .objeto1{
+        display: grid;
+        padding-left: 2%;
+        padding-right: 2%;
+        grid-template-columns: repeat(2, 58%);
+        gap: 1rem;
+        flex-direction: row;
+    }
+
+    .textoObjeto1{
+        text-align: justify;
+    }
+
+#parte2{
+    background: rgba(1, 18, 119);
+    height: 40vh;
+    border-left: solid  rgb(116, 163, 185) 3px;
+    border-right: solid  rgb(116, 163, 185) 3px;
+
+}
+
+.card-text{
+    text-align: justify;
+}
+
+    .objeto2{
+        padding-left: 3%;
+        padding-right: 3%;
+        display: grid;
+        grid-template-columns: repeat(2, 49.3%);
+        gap: 1rem;
+        flex-direction: row;
+    }
+
+#parte3{
+    background: rgb(1, 18, 119);
+    height: 20vh;
+    border-bottom: solid rgb(116, 163, 185) 3px;
+    border-left: solid  rgb(116, 163, 185) 3px;
+    border-right: solid  rgb(116, 163, 185) 3px;
+}
+
+    .objeto3{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+#parte4{
+    background: rgb(1, 21, 110, 0.637);
+    height: 40vh;
+    border-bottom: solid rgb(116, 163, 185) 3px;
+    border-left: solid  rgb(116, 163, 185) 3px;
+    border-right: solid  rgb(116, 163, 185) 3px;
+}
+
+.objeto4{
+    display: grid;
+    padding-left: 5%;
+    padding-right: 10%;
+    grid-template-columns: repeat(3, 33.33%);
+    gap: 1rem;
+}
+
+.textoObjeto2{
+    text-align: justify;
+}
+
+#parte5{
+    background: rgb(1, 21, 110, 0.637);
+    height: 60vh;
+    border-bottom: solid rgb(116, 163, 185) 3px;
+    border-left: solid  rgb(116, 163, 185) 3px;
+    border-right: solid  rgb(116, 163, 185) 3px;
+}
+
+.objeto5{
+    display: grid;
+    padding-left: 2%;
+    padding-right: 5%;
+    grid-template-columns: repeat(2, 60%);
+    gap: 1rem;
+}
+
+.tituloObjeto1{
+    text-align: center;
+}
+
+.textoObjeto3{
+    text-align: justify;
+}
+
+
+.imagenObjeto6{
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#parte7{
+    background: rgb(1, 21, 110, 0.637);
+    height: 60vh;
+    border-bottom: solid rgb(116, 163, 185) 3px;
+    border-left: solid  rgb(116, 163, 185) 3px;
+    border-right: solid  rgb(116, 163, 185) 3px;
+}
+
+.card-text{
+    text-align: justify;
+}
+
+.objeto7{
+    padding-left: 2%;
+    padding-right: 2%;
+    display: grid;
+    grid-template-columns: repeat(2, 49.3%);
+    gap: 1rem;
+    flex-direction: row;
+}
+
+
+#parte8{
+    background: rgb(1, 21, 110, 0.637);
+    padding-left: 2%;
+    padding-right: 2%;
+    height: 85vh; 
+    border-bottom: solid rgb(116, 163, 185) 3px;
+    border-left: solid  rgb(116, 163, 185) 3px;
+    border-right: solid  rgb(116, 163, 185) 3px;
+}
+
+.textoObjeto4{
+    text-align: justify;
+}
+
+.imagenObjeto9{
+    width: 100%;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#parte10{
+    background: rgb(1, 21, 110, 0.637);
+    height: 50vh;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-bottom: solid rgb(116, 163, 185) 3px;
+    border-left: solid  rgb(116, 163, 185) 3px;
+    border-right: solid  rgb(116, 163, 185) 3px; 
+}
+
+.textoObjeto5{
+    text-align: justify;
+}
+
+#parte11{
+    background: rgb(1, 18, 119);
+    padding-left: 2%;
+    padding-right: 20%;
+    display: grid;
+    padding-right: 35%;
+    grid-template-columns: repeat(4, 50%);
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-left: solid  rgb(116, 163, 185) 3px;
+    border-right: solid  rgb(116, 163, 185) 3px;
+}
+
+#parte12{
+    background: rgba(1, 18, 119);
+    padding-left: 2%;
+    padding-right: 20%;
+    display: grid;
+    padding-right: 35%;
+    grid-template-columns: repeat(4, 50%);
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-left: solid  rgb(116, 163, 185) 3px;
+    border-right: solid  rgb(116, 163, 185) 3px;
+}
+
+#parte13{
+    background: rgba(1, 19, 119, 0.767);
+    height: 48vh;
+    border: solid rgb(116, 163, 185) 5px;
+}
+
+.objeto13{
+    padding-left: 10%;
+    display: grid;
+    grid-template-columns: repeat(2, 90%);
+    gap: 1rem;
+    flex-direction: row;
+}
+
+.tituloObjeto13{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.textoObjeto13{
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card-title{
+    color: rgb(230, 9, 9);
+    font-size: 14px;
+}
+
+.card-text{
+    color: rgb(0, 0, 0);
+}
